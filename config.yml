@@ -1,0 +1,29 @@
+INTERACTIVE_MODELS_PATH: "./weights"
+EXPS_PATH: "./experiments"
+
+# Evaluation datasets
+GRABCUT_PATH: "./isegm_datasets/GrabCut"
+BERKELEY_PATH: "./isegm_datasets/Berkeley"
+DAVIS_PATH: "./isegm_datasets/DAVIS"
+COCO_MVAL_PATH: "./isegm_datasets/COCO_MVal"
+
+# Train datasets
+SBD_PATH: "./isegm_datasets/SBD/dataset"
+COCO_PATH: "./isegm_datasets/MSCOCO"
+LVIS_v1_PATH: "./isegm_datasets/LVIS"
+OPENIMAGES_PATH: "./isegm_datasets/OpenImages"
+PASCALVOC_PATH: "./isegm_datasets/VOC2012"
+ADE20K_PATH: "./isegm_datasets/ADE20K"
+
+# You can download the weights for HRNet from the repository:
+# https://github.com/HRNet/HRNet-Image-Classification
+IMAGENET_PRETRAINED_MODELS:
+  MAE_BASE: "./pretrained_models/mae_pretrain_vit_base.pth"
+  MAE_LARGE: "./pretrained_models/mae_pretrain_vit_large.pth"
+  MAE_HUGE: "./pretrained_models/mae_pretrain_vit_huge.pth"
+  SBD_VIT_BASE: "./weights/sbd_vit_base.pth"
+  SBD_VIT_LARGE: "./weights/sbd_vit_large.pth"
+  SBD_VIT_HUGE: "./weights/sbd_vit_huge.pth"
+  CL_VIT_BASE: "./weights/cocolvis_vit_base.pth"
+  CL_VIT_LARGE: "./weights/cocolvis_vit_large.pth"
+  CL_VIT_HUGE: "./weights/cocolvis_vit_huge.pth"
