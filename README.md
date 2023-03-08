@@ -1,13 +1,7 @@
-## [Achieving Real Iterative Training via Iterative Click Loss for Interactive Image Segmentation](https://arxiv.org)
+## CFR-ICL: Cascade-Forward Refinement with Iterative Click Loss for Interactive Image Segmentation
 
 <p align="center">
   <img src="./assets/img/flowchart.png" alt="drawing", width="650"/>
-</p>
-
-<p align="center">
-    <a href="https://opensource.org/licenses/MIT">
-        <img src="https://img.shields.io/badge/License-MIT-yellow.svg"/>
-    </a>
 </p>
 
 ## Environment
@@ -32,7 +26,7 @@ python demo.py --checkpoint=weights/cocolvis_icl_vit_huge.pth --gpu 0
 
 Before evaluation, please download the datasets and models, and then configure the path in `config.yml`.
 
-Download our model: [click here]()
+Download our model: We will publish the trained model soon.
 
 Use the following code to evaluate the huge model.
 
@@ -60,19 +54,6 @@ python train.py models/plainvit_huge448_cocolvis.py \
     --batch-size=32 \
     --ngpus=4
 ```
-
-## License
-The code is released under the MIT License. It is a short, permissive software license. Basically, you can do whatever you want as long as you include the original copyright and license notice in any copy of the software/source. 
-
-<!-- ## Citation
-```bibtex
-@article{liu2022simpleclick,
-  title={SimpleClick: Interactive Image Segmentation with Simple Vision Transformers},
-  author={Liu, Qin and Xu, Zhenlin and Bertasius, Gedas and Niethammer, Marc},
-  journal={arXiv preprint arXiv:2210.11006},
-  year={2022}
-}
-``` -->
 
 ## Acknowledgement
 Our project is developed based on [RITM](https://github.com/SamsungLabs/ritm_interactive_segmentation) and [SimpleClick](https://github.com/uncbiag/SimpleClick)
