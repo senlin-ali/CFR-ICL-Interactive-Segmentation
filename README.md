@@ -26,7 +26,14 @@ python demo.py --checkpoint=weights/cocolvis_icl_vit_huge.pth --gpu 0
 
 Before evaluation, please download the datasets and models, and then configure the path in `config.yml`.
 
-Download our model: We will publish the trained model soon.
+Download our model, please download below 3 zipped files and extract before use:
+
+- [cocolvis_icl_vit_huge.pth.7z.001](https://github.com/TitorX/CFR-ICL-Interactive-Segmentation/releases/download/v1.0/cocolvis_icl_vit_huge.pth.7z.001)
+- [cocolvis_icl_vit_huge.pth.7z.002](https://github.com/TitorX/CFR-ICL-Interactive-Segmentation/releases/download/v1.0/cocolvis_icl_vit_huge.pth.7z.002)
+- [cocolvis_icl_vit_huge.pth.7z.003](https://github.com/TitorX/CFR-ICL-Interactive-Segmentation/releases/download/v1.0/cocolvis_icl_vit_huge.pth.7z.003)
+
+
+
 
 Use the following code to evaluate the huge model.
 
