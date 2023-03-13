@@ -4,6 +4,16 @@
   <img src="./assets/img/flowchart.png" alt="drawing", width="650"/>
 </p>
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cfr-icl-cascade-forward-refinement-with/interactive-segmentation-on-berkeley)](https://paperswithcode.com/sota/interactive-segmentation-on-berkeley?p=cfr-icl-cascade-forward-refinement-with)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cfr-icl-cascade-forward-refinement-with/interactive-segmentation-on-davis)](https://paperswithcode.com/sota/interactive-segmentation-on-davis?p=cfr-icl-cascade-forward-refinement-with)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cfr-icl-cascade-forward-refinement-with/interactive-segmentation-on-pascal-voc)](https://paperswithcode.com/sota/interactive-segmentation-on-pascal-voc?p=cfr-icl-cascade-forward-refinement-with)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cfr-icl-cascade-forward-refinement-with/interactive-segmentation-on-sbd)](https://paperswithcode.com/sota/interactive-segmentation-on-sbd?p=cfr-icl-cascade-forward-refinement-with)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cfr-icl-cascade-forward-refinement-with/interactive-segmentation-on-grabcut)](https://paperswithcode.com/sota/interactive-segmentation-on-grabcut?p=cfr-icl-cascade-forward-refinement-with)
+
 ## Environment
 Training and evaluation environment: Python 3.9, PyTorch 1.13.1, CUDA 11.0. Run the following command to install required packages.
 ```
